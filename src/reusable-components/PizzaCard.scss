@@ -1,0 +1,38 @@
+.pizza-card-wrapper {
+    .MuiFormControl-root {
+        width: 100%;
+        margin: 20px 0 20px 0;
+    }
+
+    .pizza-image-wrapper {
+        position: relative;
+
+        .veg-non-veg-image {
+            position: absolute;
+            top: 8px;
+            left: 5px;
+            background: white;
+        }
+
+        .pizza-price {
+            position: absolute;
+            bottom: 0;
+            left: 16px;
+            font-size: 18px;
+            color: white;
+            font-weight: 600;
+        }
+    }
+
+    .pizza-name {
+        margin: 0;
+    }
+
+    .MuiDivider-root {
+        margin-inline: 0;
+    }
+
+    .card-content {
+        height: 100px;
+    }
+}
